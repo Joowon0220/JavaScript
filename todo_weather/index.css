@@ -1,0 +1,49 @@
+*{
+    list-style: none;
+}
+
+body{
+  background-color: pink;
+  text-align: center;
+
+}
+h1, h4{
+    color:white;
+    text-shadow: 2px 2px 2px blueviolet;
+}
+
+
+
+.form, .greetings{
+    display: none;
+
+}
+
+.showing{
+    display: block;
+}
+.bgImage{
+    position: absolute;
+    border: 5px solid white;
+    z-index: -1;
+    top:0;
+    width:38%;
+    left:30%;
+}
+
+button{
+    background: none;
+    border: none;
+}
+li{
+    margin-left: -40px;
+    color:white;
+    text-shadow: 2px 2px 2px blueviolet;
+}
+input{
+    text-align: center;
+}
+span{
+    color:white;
+    text-shadow: 2px 2px 2px blueviolet;
+}
